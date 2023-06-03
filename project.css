@@ -1,0 +1,62 @@
+.course{
+  list-style-type: none;
+  background-color: violet;
+  margin:0 0 10px 0;
+  padding: 0px;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-image: url(desktop-wallpaper-tzar-labs-medical-lab.jpg);
+background-repeat:no-repeat ;
+background-size: cover;
+}
+#nav-link{
+  float: left;
+
+}
+li a{
+text-decoration: none;
+display: block;
+color: azure;
+padding:10px 10px 10px 10px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+li a:hover{
+  background-color: rgb(213, 233, 34);
+  color: rgb(250, 0, 0);
+  padding: 10px;
+  margin: 0;
+}
+.logo{
+  text-align: center;
+  margin: 0;
+  top: 0;
+}
+
+.lab{
+  background-color: aqua;
+  top: 0;
+  height: 330px;
+  border-radius: 20%;
+}
+table,tr,th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+h1{
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 0;
+margin: 0;
+}
+tr:hover{background-color: rgb(255, 255, 255);color: darkblue;}
+td:hover{background-color: rgb(210, 30, 30);color: rgb(255, 255, 255);}
+ul{list-style-type: square;}
+h3{text-align:center ;}
+.cats{display: block;}
+.cats li:hover{ color: #00ff0d;font-weight:bolder}
