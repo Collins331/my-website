@@ -8,12 +8,55 @@
     <link rel="stylesheet" href="project.css">
     <link rel="icon" type="image/x-icon" href="download.jpeg">
 </head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+  
+    .video-container video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+    }
+  </style>
 <body>
 <section class="lab">
         <h1>MEDICAL LABORATORY SCIENCE</h1>
         <div class="logo">
             <img src="download.jpeg" alt="lab-logo" width="150px" height="150px">
         </div>
+        <div class="video-container">
+            <video autoplay loop>
+              <source src="videoplayback.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <!-- Content goes here -->
+          </div>
+          <div class="video-container">
+            <video autoplay loop>
+              <source src="videoplayback.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="content">
+              <!-- Add your content here -->
+            </div>
+          </div>
     <section>
             <ul class="course">
                 <li><a href="#introduction" id="nav-link">INTRODUCTION</a></li>
@@ -28,7 +71,7 @@
     <section id="introduction">
       <div class="intro">
         <h2>INTRODUCTION</h2>
-        <iframe src="https://www.linkedin.com/in/collins-oduor-ochieng-9b2303251/" frameborder="0"></iframe>
+        <video src="videoplayback.mp4" width="500px" controls></video>
         <table>
             <caption><h2>TIMETABLE</h2></caption>
             <tr>
