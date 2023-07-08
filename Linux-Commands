@@ -1,0 +1,75 @@
+tar			=> utility for archiving files
+pv
+cat    => to view file content
+tac
+chmod   => to change permisions of the file or directory
+grep
+diff
+ar
+man     => to view manuals for various commands used in linux
+pushd
+popd
+fsck
+testdisk
+seq
+fd
+pandoc
+cd       => to navigate(change) between directories
+$PATH   
+join
+jq
+fold
+journalctl
+stat
+ls   		=> to list directory content
+fstab
+echo   		=> used to add text into a file
+less		=> to view file content
+chgrp		=> to change group of a certain document or directory
+chown       => to change ownership of a certain file/directory
+rev
+look
+strings
+type
+rename
+zip
+unzip
+mount
+unmount
+install
+fdisk
+mkfs
+rm			=>used to remove a file
+rmdir		=> used to remove a directory
+rsync
+df
+gpg
+vi			=> used to open vi/vim text editor
+nano
+mkdir		=> used to make a directory
+du
+ln
+patch
+convert
+rclone
+shred
+srm
+scp
+gzip
+chattr
+cut
+find
+unmask
+wc
+tr
+sort			=> sorts standard input then outputs the sorted results on standard output
+uniq			=> given sorted stream of data from standard input , it removes duplicate lines of data
+grep			=> examines each line of data it receives from standard input and outputs every line that contains a specified pattern of characters.
+fmt				=> reads texts from standard input ,then outputs formatted text output
+pr				=> takes text input from standard input and splits the data into page breaks, headers , and footers in preparation for printing.
+head			=> outputs the first few lines of its input.(useful for getting the header of the file)
+tail			=> outputs the last few lines of its input.(useful for things like getting the header of a file)
+tr				=> translates characters. Can be used to perform tasks such as upper/lowercase conversions or changing line termination characters from one type to another.
+sed				=> Stream edotor. Can perform more sophisticated text translations than tr.
+awk				=> An entire programming language designed for constructing filters.(Extremely powerful).
+lpr 			=> accepts standard input and sends it to the printer.
