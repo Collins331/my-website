@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-otw%_u!x8()ka=801)$036&r=dr0ohb+^eov-h1dd-4)v-nttu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -52,12 +52,13 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'lincwebsite.urls'
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://sandbox.safaricom.co.ke',
-#     'https://sandbox.safaricom.co.ke/mpesa/',
-#     'https://sandbox.safaricom.co.ke/mpesa/',
+CSRF_TRUSTED_ORIGINS = [
+    'https://sandbox.safaricom.co.ke',
+    'https://sandbox.safaricom.co.ke/mpesa/',
+    'https://lincsoftwares.azurewebsites.net',
+    'https://learn.lincsoftwares.tech'
 
-# ]
+]
 
 TEMPLATES = [
     {
