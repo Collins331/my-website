@@ -52,6 +52,12 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'lincwebsite.urls'
+CSRF_TRUSTED_ORIGINS = [
+    'https://sandbox.safaricom.co.ke',
+    'https://sandbox.safaricom.co.ke/mpesa/',
+    'https://sandbox.safaricom.co.ke/mpesa/',
+    
+]
 
 TEMPLATES = [
     {
