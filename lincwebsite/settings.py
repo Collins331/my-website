@@ -59,7 +59,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://learn.lincsoftwares.tech'
 
 ]
-
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.lincsoftwares.tech']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

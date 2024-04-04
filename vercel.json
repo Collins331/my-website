@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "lincwebsite/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "lincwebsite/wsgi.py"
+      }
+    ]
+  }
